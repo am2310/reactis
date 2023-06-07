@@ -1,0 +1,103 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.Wrap-false {
+  display: flex;
+}
+.header {
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  font-size: 24px;
+}
+.Nav-item {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 8px;
+}
+.Home {
+  align-items: center;
+  height: 100%;
+  
+  background-color: #d895fc;
+}
+.AddPost {
+  align-items: center;
+  /* background:linear-gradient(to right,#18978F,#54BAB9); */
+  background-color: #F9F2ED;
+  width: 30%;
+  padding: 5rem 2rem;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+.btn-save{
+  font-family: sans-serif;
+  margin-top: 2rem;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #3adeff;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  cursor: pointer;
+}
+.Post{
+  align-self: flex-start;
+  flex-wrap: wrap;
+  
+}
+.PostCard{
+  position: relative;
+  background-color: #F9F2ED;
+  width: 15rem;
+  height: 20rem;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  
+}
+.PostCard-heading{
+  font-weight: 500;
+  letter-spacing: 1.75px;
+  color: #777;
+  margin-bottom: 5px;
+}
+.PostCard-description{
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+.btn-group{
+  position: absolute;
+  bottom: 10px;
+}
+.btn-group button{
+  font-family: sans-serif;
+  border: none;
+  margin: 0 0.5rem;
+  text-transform: uppercase;
+  color: #3AB0FF;
+  border: 1px solid #3AB0FF;
+  padding: 3px 5px;
+  border-radius: 5px;
+
+}
+.Detailed{
+  align-self: flex-start;
+  padding: 1rem 2rem;
+}
+.Detailed-description{
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+.Detailed-title{
+  font-size: 36px;
+  line-height: 1.8;
+  font-weight: 300;
+  letter-spacing: 1.7px;
+}
